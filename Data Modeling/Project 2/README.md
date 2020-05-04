@@ -4,13 +4,13 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 They'd like a data engineer to create an Apache Cassandra database which can create queries on song play data to answer the questions, and wish to bring you on the project. Your role is to create a database for this analysis. You'll be able to test your database by running queries given to you by the analytics team from Sparkify to create the results.
 
 # Project Description
-In this project, you'll apply what you've learned on data modeling with Apache Cassandra and complete an ETL pipeline using Python. To complete the project, you will need to model your data by creating tables in Apache Cassandra to run queries. You are provided with part of the ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
+In this project, complete an ETL pipeline using Python. To complete the project, model the data by creating tables in Apache Cassandra to run queries first. The part of the ETL pipeline is provided that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
 
 # Datasets
-For this project, you'll be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
+For this project, work with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
->event_data/2018-11-08-events.csv
->event_data/2018-11-09-events.csv
+<br /> event_data/2018-11-08-events.csv
+<br /> event_data/2018-11-09-events.csv
 
 # Project Template
 To get started with the project, go to the workspace on the next page, where you'll find the project template (a Jupyter notebook file). You can work on your project and submit your work through this workspace.
