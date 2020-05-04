@@ -9,8 +9,8 @@ In this project, you'll apply what you've learned on data modeling with Apache C
 # Datasets
 For this project, you'll be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
-\nevent_data/2018-11-08-events.csv
-\nevent_data/2018-11-09-events.csv
+>event_data/2018-11-08-events.csv
+>event_data/2018-11-09-events.csv
 
 # Project Template
 To get started with the project, go to the workspace on the next page, where you'll find the project template (a Jupyter notebook file). You can work on your project and submit your work through this workspace.
