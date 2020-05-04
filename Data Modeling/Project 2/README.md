@@ -9,15 +9,15 @@ In this project, you'll apply what you've learned on data modeling with Apache C
 # Datasets
 For this project, you'll be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
-event_data/2018-11-08-events.csv
-event_data/2018-11-09-events.csv
+\nevent_data/2018-11-08-events.csv
+\nevent_data/2018-11-09-events.csv
 
 # Project Template
 To get started with the project, go to the workspace on the next page, where you'll find the project template (a Jupyter notebook file). You can work on your project and submit your work through this workspace.
 
 The project template includes one Jupyter Notebook file, in which:
 
-###Process the event_datafile_new.csv dataset to create a denormalized dataset
+### Process the event_datafile_new.csv dataset to create a denormalized dataset
 Model the data tables keeping in mind the queries you need to run
 Provide queries that you will need to model your data tables for
 Load the data into tables you create in Apache Cassandra and run your queries
