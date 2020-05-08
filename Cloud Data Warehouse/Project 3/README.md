@@ -88,7 +88,7 @@ Below are steps you can follow to complete each component of this project.
 3. Test by running etl.py after running create_tables.py and running the analytic queries on your Redshift database to compare your results with the expected results.
 4. Delete your redshift cluster when finished.
 
-###Note
+### Note
 The ``SERIAL`` command in Postgres is not supported in Redshift. The equivalent in redshift is ``IDENTITY(0,1)``, which you can read more on in the Redshift Create Table Docs.
 
 __REMINDER: Do not include your AWS access keys in your code when sharing this project!__
