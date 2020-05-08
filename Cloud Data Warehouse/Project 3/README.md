@@ -59,3 +59,32 @@ _song_id, title, artist_id, year, duration_
 _artist_id, name, location, lattitude, longitude_
 5. time - timestamps of records in songplays broken down into specific units
 _start_time, hour, day, week, month, year, weekday_
+
+## Project Template
+The project template includes four files:
+  * ``create_table.py``<br> - where create the fact and dimension tables for the star schema in Redshift
+  * ``etl.py``<br> - where load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift
+  * ``sql_queries.py``<br> - where define you SQL statements, which will be imported into the two other files above
+
+## Project Steps
+Below are steps you can follow to complete each component of this project.
+
+### Create Table Schemas
+1. Design schemas for your fact and dimension tables
+2. Write a SQL CREATE statement for each of these tables in sql_queries.py
+3. Complete the logic in create_tables.py to connect to the database and create these tables
+4. Write SQL DROP statements to drop tables in the beginning of create_tables.py if the tables already exist. This way, you can run create_tables.py whenever you want to reset your database and test your ETL pipeline.
+5. Launch a redshift cluster and create an IAM role that has read access to S3.
+6. Add redshift database and IAM role info to dwh.cfg.
+7. Test by running create_tables.py and checking the table schemas in the redshift database. Use Query Editor in the AWS Redshift console for this.
+
+### Build ETL Pipeline
+1. Implement the logic in etl.py to load data from S3 to staging tables on Redshift.
+2. Implement the logic in etl.py to load data from staging tables to analytics tables on Redshift.
+3. Test by running etl.py after running create_tables.py and running the analytic queries on your Redshift database to compare your results with the expected results.
+4. Delete your redshift cluster when finished.
+
+###Note
+The ``SERIAL`` command in Postgres is not supported in Redshift. The equivalent in redshift is ``IDENTITY(0,1)``, which you can read more on in the Redshift Create Table Docs.
+
+__REMINDER: Do not include your AWS access keys in your code when sharing this project!__
