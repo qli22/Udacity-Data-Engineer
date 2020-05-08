@@ -1,3 +1,6 @@
+# Project 2: Data Modeling with Apache Cassandra
+[![Project passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
+
 # Introduction
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
@@ -13,11 +16,10 @@ For this project, work with one dataset: event_data. The directory of CSV files 
 
 # Project Template
 The project template includes one Jupyter Notebook file, in which:
-
-### Process the event_datafile_new.csv dataset to create a denormalized dataset
-Model the data tables keeping in mind the queries need to run
-Provide queries that need to model data tables for
-Load the data into tables created in Apache Cassandra and run the queries
+  - Process the event_datafile_new.csv dataset to create a denormalized dataset
+  - Model the data tables keeping in mind the queries need to run
+  - Provide queries that need to model data tables for
+  - Load the data into tables created in Apache Cassandra and run the queries
 
 # Project Steps
 Follow below are steps to complete each component of this project.
