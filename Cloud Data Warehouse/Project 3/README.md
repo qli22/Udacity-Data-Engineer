@@ -92,3 +92,4 @@ Below are steps you can follow to complete each component of this project.
 The ``SERIAL`` command in Postgres is not supported in Redshift. The equivalent in redshift is ``IDENTITY(0,1)``, which you can read more on in the Redshift Create Table Docs.
 
 __REMINDER: Do not include your AWS access keys in your code when sharing this project!__
+
