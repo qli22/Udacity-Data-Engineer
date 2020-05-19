@@ -69,6 +69,17 @@ The project template includes following files:
   * ``etl.py``<br> - where read data from S3, processes that data using Spark, and writes them back to S3
   * ``dl.cfg``<br> - contain AWS credentials
 
+## Project Steps
+1. Create a configuration file dl.cfg with the following structure:
+[AWS]
+AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
+AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
+DEFAULT_REGION_NAME =<your_aws_region>
+DEFAULT_OUTPUT_FORMAT=JSON
+
+2. Execute the ETL pipeline from the command line, enter the following:
+python etl.py <your-new-s3-bucket-name>
+
 __REMINDER: Do not include your AWS access keys in your code when sharing this project!__
 
 
