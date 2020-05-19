@@ -1,4 +1,6 @@
 # Sparkify Data Warehouse
+[![Project passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
+
 ## Table of Contents
 [Introduction](#introduction)
 
