@@ -51,7 +51,7 @@ log_data/2018/11/2018-11-13-events.json
 ## Schema for Song Play Analysis
 Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
 
-![schema](/Data Lake - Spark/ERD.png)
+![schema](ERD.png)
 
 ### Fact Table
 1. songplays - records in event data associated with song plays i.e. records with page ```sh NextSong```
