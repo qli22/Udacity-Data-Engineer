@@ -7,8 +7,8 @@ from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
 from airflow.operators.postgres_operator import PostgresOperator
 from helpers import SqlQueries
 
-#AWS_KEY = os.environ.get('AKIATJKALURP7HIASVFE')
-#AWS_SECRET = os.environ.get('tfSkl7sraoHAHVNBdo8z05CdoaTkl4nQyArBMv1s')
+#AWS_KEY = os.environ.get('YOUR_AWS_KEY')
+#AWS_SECRET = os.environ.get('YOUR_AWS_SECRET')
 
 default_args = {
     'owner': 'dorothyli',
