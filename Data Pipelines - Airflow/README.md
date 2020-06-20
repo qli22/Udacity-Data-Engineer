@@ -35,5 +35,5 @@ workspace
 |       |   | load_fact.py       # LoadFactOperator
 |       |   | stage_redshift.py  # StageToRedshiftOperator
 ```
-![Pipelines](/images/Sparkify_Pipelines.png)   
+![Pipelines](images/Sparkify_Pipelines.png)   
 Airflow UI is allows any users to visualize the DAG in a graph view. The author of a data pipeline must define the structure of dependencies among tasks in order to visualize them. This specification is often written in a file called the DAG definition file, which lays out the anatomy of an Airflow job. While DAGs describe how to run a data pipeline, operators describe what to do in a data pipeline. 
